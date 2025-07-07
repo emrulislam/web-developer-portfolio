@@ -175,3 +175,43 @@ main section{
     font-size: 16px;
     color: #757575;  
 }
+
+/* resume section design */
+
+.resume-container{
+    display: flex;
+    gap: 70px;
+}
+.resume-column-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+}
+
+.experience{
+    margin-bottom: 60px;
+}
+.experience-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747;
+    margin: 0px;
+}
+.experience-subtitle{
+    font-weight: 600px;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;  
+}
+.experience-description{
+    font-weight: normal;
+    font-size: 16px;
+    color: #757575;       
+}
+hr{
+    border: 1px solid #d1d1d1;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
+}
