@@ -7,7 +7,9 @@
 }
     
 /* Shared Style */
-
+.secondary-bg{
+    background-color: #fff8f3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -34,6 +36,17 @@
     padding: 18px 35px;
 }
 
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+
+.section-description{
+    font-weight: normal;
+    font-size: 18px;
+    color: #757575;
+}
 /* Header Style */
 
 .header{
@@ -100,4 +113,35 @@ nav li a{
 
 .banner-profile-pic{
     width: 584px;
+}
+
+/* Main Style */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About Me Style */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title{
+    font-weight: normal;
+    font-size: 20px;
+    color: #757575;
+    text-align: center;
+}
+.item-description{
+    font-weight: bold;
+    font-size: 20px;
+    color: #474747;
 }
